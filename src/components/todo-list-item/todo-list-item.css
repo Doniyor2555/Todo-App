@@ -1,0 +1,61 @@
+.todo-list {
+  width: 500px;
+  min-height: 50px;
+  background: hsla(217, 100%, 50%, 1);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  background: linear-gradient(0deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+  margin-top: 30px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.todo-list div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 80px;
+}
+
+.todo-list div button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 27px;
+}
+
+
+.todo-list div .delete:hover {
+  color: #DA0E41;
+  transition: all 0.5s ease-in;
+}
+
+.todo-list div .delete {
+  transition: all 0.5s ease-out;
+}
+
+
+.todo-list div .done:hover {
+  color: #14c020;
+  transition: all 0.5s ease-out;
+}
+
+.todo-list div .done:hover  {
+  transition: all 0.5s ease-in;
+}
+
+
+.todo-list.did {
+  text-decoration: line-through;
+}

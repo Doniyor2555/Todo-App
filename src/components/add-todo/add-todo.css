@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+
+.addTodo {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+
+.inputBtn {
+  padding: 5px 10px 5px 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: orange;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.inputBtn:hover {
+  background-color: orangered;
+  transition: all 0.3s ease-in;
+}
